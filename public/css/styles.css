@@ -1,0 +1,15 @@
+.container{
+  text-align: center;
+}
+body{
+  background-color: #c4c4c4;
+}
+#cityInput{
+  border-radius: 20px;
+}
+
+.copyright{
+padding-top: -100%
+font-style: italic;
+
+}

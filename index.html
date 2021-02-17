@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Useless App!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="/css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Useless-App</h1>
+    <img src="/images/brad.png" alt="" width="182" height="auto">
+
+
+    <h2>Random Kanye West Quotes Generator</h2>
+    <form action="/kanye" method="post">
+      <button class="btn btn-secondary" type="submit" name="button">Generate</button>
+    </form>
+    <h2>Random Jokes Generator</h2>
+    <form action="/joke" method="post">
+      <button class="btn btn-secondary" type="submit" name="button">Generate</button>
+    </form>
+    <h2>Weather App</h2>
+    <form action="/weather" method="post">
+      <label for="cityInput">City Name: </label>
+      <input id="cityInput" type="text" name="cityName">
+      <button class="btn btn-secondary" type="submit" name="button">Go</button>
+    </form>
+
+    </div>
+
+  </body>
+  <footer>
+    <hr>
+      <p class="copyright">© November 2020 Bikranta Sarkar.</p>
+  </footer>
+</html>
